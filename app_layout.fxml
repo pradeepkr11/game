@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:id="rootGridPane" gridLinesVisible="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.internshala.game.Controller">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="446.0" minWidth="10.0" prefWidth="446.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="295.0" minWidth="10.0" prefWidth="154.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints maxHeight="194.4" minHeight="10.0" prefHeight="27.2" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="385.6" minHeight="10.0" prefHeight="372.8" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <Pane fx:id="menuPane" prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" />
+        <Pane fx:id="bodyPane" maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="420.0" GridPane.rowIndex="1" />
+        <Pane fx:id="infoPane" prefHeight="373.0" prefWidth="180.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    </children>
+</GridPane>
